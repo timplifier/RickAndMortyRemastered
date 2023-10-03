@@ -1,4 +1,4 @@
-package com.timplifier.boilerplate.konsist.domain.assertions.architecture
+package com.timplifier.rickandmortyremastered.konsist.domain.assertions.architecture
 
 import com.lemonappdev.konsist.api.Konsist
 import com.lemonappdev.konsist.api.architecture.KoArchitectureCreator.assertArchitecture
@@ -10,12 +10,12 @@ internal class DomainLayerArchitectureTest {
     @Test
     internal fun `ensure that domain layer is independent`() {
         val coreDomain =
-            Layer("Core Domain", "com.timplifier.boilerplate.core.domain..")
+            Layer("Core Domain", "com.timplifier.rickandmortyremastered.core.domain..")
         Konsist.scopeFromProject()
             .assertArchitecture {
                 listOf(
-                    "com.timplifier.boilerplate.authentication.domain..",
-                    "com.timplifier.boilerplate.main.domain.."
+                    "com.timplifier.rickandmortyremastered.authentication.domain..",
+                    "com.timplifier.rickandmortyremastered.main.domain.."
                 ).forEach { definedBy ->
                     val domain = Layer(definedBy, definedBy)
                     domain.dependsOn(coreDomain)

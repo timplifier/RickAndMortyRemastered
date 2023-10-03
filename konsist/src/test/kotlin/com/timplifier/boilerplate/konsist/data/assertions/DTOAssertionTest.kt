@@ -1,6 +1,6 @@
-package com.timplifier.boilerplate.konsist.data.assertions
+package com.timplifier.rickandmortyremastered.konsist.data.assertions
 
-import com.timplifier.boilerplate.konsist.ClassAssertionTest
+import com.timplifier.rickandmortyremastered.konsist.ClassAssertionTest
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import org.junit.Test

@@ -1,5 +1,5 @@
 [versions]
-namespaces-common = "com.timplifier.boilerplate"
+namespaces-common = "com.timplifier.rickandmortyremastered"
 sdk-min = "24"
 sdk-compile = "34"
 sdk-target = "34"

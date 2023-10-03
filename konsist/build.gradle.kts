@@ -1,5 +1,5 @@
 plugins {
-    id(libs.plugins.boilerplate.android.plain.get().pluginId)
+    id(libs.plugins.rickandmortyremastered.android.plain.get().pluginId)
 }
 
 dependencies {

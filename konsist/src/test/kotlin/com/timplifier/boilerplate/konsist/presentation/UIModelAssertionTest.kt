@@ -1,6 +1,6 @@
-package com.timplifier.boilerplate.konsist.presentation
+package com.timplifier.rickandmortyremastered.konsist.presentation
 
-import com.timplifier.boilerplate.konsist.ClassAssertionTest
+import com.timplifier.rickandmortyremastered.konsist.ClassAssertionTest
 import org.junit.Test
 
 internal class UIModelAssertionTest : ClassAssertionTest() {

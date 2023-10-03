@@ -3,8 +3,6 @@ package com.timplifier.rickandmortyremastered.feature.authentication.data.di.mod
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.room.Room
-import com.timplifier.rickandmortyremastered.feature.authentication.data.local.database.FooDatabase
-import com.timplifier.rickandmortyremastered.feature.authentication.data.local.database.daos.FooDao
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

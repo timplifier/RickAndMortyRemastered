@@ -1,3 +1,3 @@
 plugins {
-    id(libs.plugins.boilerplate.layer.domain.get().pluginId)
+    id(libs.plugins.rickandmortyremastered.layer.domain.get().pluginId)
 }

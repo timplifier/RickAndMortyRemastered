@@ -24,7 +24,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Boilerplate"
+rootProject.name = "RickAndMortyRemastered"
 includeBuild("build-logic")
 include(":app")
 include(":konsist")

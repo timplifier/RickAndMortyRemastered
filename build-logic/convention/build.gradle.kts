@@ -31,7 +31,7 @@ dependencies {
 gradlePlugin {
     plugins {
 
-        with(libs.plugins.boilerplate) {
+        with(libs.plugins.rickandmortyremastered) {
             register(android.plain.get().pluginId) {
                 id = android.plain.get().pluginId
                 implementationClass =

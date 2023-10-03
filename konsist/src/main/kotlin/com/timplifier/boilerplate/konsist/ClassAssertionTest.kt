@@ -1,4 +1,4 @@
-package com.timplifier.boilerplate.konsist
+package com.timplifier.rickandmortyremastered.konsist
 
 import com.lemonappdev.konsist.api.Konsist
 import com.lemonappdev.konsist.api.declaration.KoClassDeclaration

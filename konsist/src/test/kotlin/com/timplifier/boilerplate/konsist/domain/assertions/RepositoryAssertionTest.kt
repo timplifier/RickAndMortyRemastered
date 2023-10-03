@@ -1,6 +1,6 @@
-package com.timplifier.boilerplate.konsist.domain.assertions
+package com.timplifier.rickandmortyremastered.konsist.domain.assertions
 
-import com.timplifier.boilerplate.konsist.ClassAssertionTest
+import com.timplifier.rickandmortyremastered.konsist.ClassAssertionTest
 import org.junit.Test
 
 internal class RepositoryAssertionTest : ClassAssertionTest() {
